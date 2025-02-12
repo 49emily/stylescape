@@ -18,6 +18,7 @@ import frozen2 from "./assets/frozen/2.jpg";
 import marnie0 from "./assets/marnie/0.png";
 import marnie1 from "./assets/marnie/1.jpeg";
 import marnie2 from "./assets/marnie/2.jpeg";
+import { Github, ScrollText } from "lucide-react";
 
 function App() {
   const onChange = (currentSlide) => {
@@ -27,7 +28,45 @@ function App() {
   return (
     <div className={styles.app}>
       <h1>StyleScape: Stylized and Depth-Consistent 3D Scene Generation</h1>
-      <h2>CS 231n Project Page</h2>
+      <h2>Project Page</h2>
+      <div
+        style={{
+          margin: "30px 0",
+          textAlign: "center",
+          display: "flex",
+          justifyContent: "center",
+          gap: "30px",
+        }}
+      >
+        <a
+          href="https://github.com/49emily/stylescape"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "inherit",
+            textDecoration: "none",
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "4px",
+          }}
+        >
+          <Github /> Github
+        </a>
+        <a
+          href="https://github.com/emilyzhang12345/stylescape"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "inherit",
+            textDecoration: "none",
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "4px",
+          }}
+        >
+          <ScrollText /> Paper
+        </a>
+      </div>
       <div className={styles.nameContainer}>
         <div className={styles.nameDiv}>
           <h3>Emily Zhang</h3>
