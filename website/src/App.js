@@ -53,7 +53,7 @@ function App() {
           <Github /> Github
         </a>
         <a
-          href="https://github.com/emilyzhang12345/stylescape"
+          href="https://github.com/49emily/stylescape/blob/1ca5be7b18c49cb418a72292163c4e4b080126f9/report.pdf"
           target="_blank"
           rel="noopener noreferrer"
           style={{
